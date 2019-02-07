@@ -1,6 +1,7 @@
 FROM nginx
 
-ENV HOST="HOST_NAME"
+# write your domain
+ENV DOMAIN="YOUR_DOMAIN"
 
 ARG PROJECT_DIRECTORY=/etc/nginx/conf.d
 

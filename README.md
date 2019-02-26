@@ -12,7 +12,7 @@ docker-compose를 사용하지 않는 방법임
 # you can get container's ip address
 docker inspect {YOUR_CONTAINER_NAME} | grep IPAdress
 
-# yout cna get container's port (on running)
+# you can get container's port (on running)
 docker ps
 
 
